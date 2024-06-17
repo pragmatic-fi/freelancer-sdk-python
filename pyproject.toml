@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "freelancersdk"
+version = "0.1.20"
+description = "Official Freelancer.com SDK (locally modified version)"
+authors = ["Freelancer.com"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+guzzle_sphinx_theme = "^0.7.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
